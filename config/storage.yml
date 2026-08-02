@@ -11,7 +11,7 @@ test_fixtures:
   root: <%= Rails.root.join("tmp/storage_fixtures") %>
 
 scaleway:
-  service: Scaleway
+  service: S3
   access_key_id: <%= ENV['SCALEWAY_OS_ACCESS_KEY_ID'] %>
   secret_access_key: <%= ENV['SCALEWAY_OS_SECRET_ACCESS_KEY'] %>
   region: <%= ENV['SCALEWAY_OS_REGION'] %>
